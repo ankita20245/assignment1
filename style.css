@@ -1,16 +1,17 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #2B2B2B;
     
 }
 
 
 #header{
     display:flex;
-    background-color: #2B2B2B;
     flex-direction: row;
     height:130px;
     width:100%;
     align-items: center;
+    
 
 }
 #header div{
@@ -43,15 +44,6 @@ body {
 }
 
 .cta-button {
-    /* padding: 10px 20px;
-    background-color: hsl(271, 56%, 44%);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 200px;
-    margin-left: 100px; */
 
     padding: 1.1875rem 3.125rem ;
     cursor: pointer;
@@ -69,20 +61,14 @@ body {
     background-color: #6d09b0;
 }
 
-/* footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-} */
+
 
 .text{
     display: flex;
-    width: 97.3%;
+    
     height: 300px;
-    background-color:#2B2B2B;
     padding: 20px;
-    justify-content: space-between;
+    
     
 }
 #p1{
@@ -96,7 +82,7 @@ body {
     flex: 20px;
 }
 .img1 {
-    background-color: #3B3B3B;
+
     height: 50px;
     width:30px;
     margin-right: 50px;
@@ -109,18 +95,20 @@ body {
 .like{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .container {
     padding: 2px 16px;
   }
 
 .card {
-    background-color: #535151;
+    
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(5, 5, 5, 0.1);
     overflow: hidden;
     width: 300px;
     transition: transform 0.2s;
+    box-shadow: black;
 }
 
 
@@ -149,7 +137,7 @@ body {
 .mid1{
     display: flex;
     flex-direction: column;
-    background-color: #2B2B2B;
+    justify-content: space-around;
 }
 
 .contant-trend__tytle p:first-child {
@@ -157,7 +145,7 @@ body {
     font-family: Work Sans;
     font-style: normal;
     font-weight: 600;
-    line-height: 120%;
+    line-height: 12px;
     font-size: 50px;
     text-transform: capitalize;
 }
@@ -168,14 +156,15 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%
+    line-height: 140%;
+
 }
 .contant-trend__cards-all.cards-all{
     display: flex;
     height: 100%;
     width: 100%;
     justify-content: space-evenly;
-    background-color: #2B2B2B;
+    
     
 }
 .cards-all__box-foto-collection{
@@ -219,6 +208,46 @@ body {
     text-transform: capitalize;
     overflow: hidden;
     justify-content: center;
+}
+footer{
+    background: #3b3b3b;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    border-radius: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 100px;
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    
+}
+.first-one{
+    display:flex;
+    flex-direction: row;
+    
+}
+.first-two{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 100px;
+    height: 32px;
+    justify-content: space-between;
+}
+.join-our__box-box-input{
+    border-radius: 50%;
+    border: none;
+}
+.second{
+    width:192px ;
 }
 
 
